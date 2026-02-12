@@ -24,3 +24,11 @@ for row in filtered:
 
 end = time.perf_counter()
 print(f"execution time:{end - start:6f} seconds")
+
+# results
+# avg age: 31.25
+# age > 25:
+# {'name': 'Alice', 'age': '34'}
+# {'name': 'Charlie', 'age': '29'}
+# {'name': '', 'age': '40'}
+# execution time:0.001104 seconds

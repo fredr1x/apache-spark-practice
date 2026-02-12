@@ -20,13 +20,32 @@ df = spark.read.csv(
     inferSchema=True
 )
 
-print("Average age (Spark):")
+print("avg age:")
 df.select(avg("age")).show()
 
-print("Age > 25 (Spark):")
+print("age > 25:")
 df.filter("age > 25").show()
 
 spark.stop()
 
 end = time.perf_counter()
 print(f"execution time:{end - start:6f} seconds")
+
+# results
+# avg age:
+# +--------+
+# |avg(age)|
+# +--------+
+# |   31.25|
+# +--------+
+#
+# age > 25:
+# +-------+---+
+# |   name|age|
+# +-------+---+
+# |  Alice| 34|
+# |Charlie| 29|
+# |   NULL| 40|
+# +-------+---+
+#
+# execution time:16.424013 seconds
