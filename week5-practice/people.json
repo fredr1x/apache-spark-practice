@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Gani",
+    "year": "2006",
+    "city": "Almaty",
+    "age": 20,
+    "scores": {
+      "math": 90,
+      "english": 80
+    }
+  },
+  {
+    "name": "Nurzhigit",
+    "year": "2000",
+    "city": "Shymkent",
+    "age": 26,
+    "scores": {
+      "math": 85,
+      "english": 85
+    }
+  },
+  {
+    "name": "Azamat",
+    "year": "2002",
+    "city": "Taldykorgan",
+    "age": "24",
+    "scores": {
+      "math": 76,
+      "english": 78
+    }
+  },
+  {
+    "name": "Bakdaulet",
+    "year": "2001",
+    "city": "Almaty",
+    "age": 25,
+    "scores": {
+      "math": 92,
+      "english": 95
+    }
+  },
+  {
+    "name": "Yerdaulet",
+    "year": "2005",
+    "city": "Shymkent",
+    "age": 21,
+    "scores": {
+      "math": 95,
+      "english": 95
+    }
+  }
+]
